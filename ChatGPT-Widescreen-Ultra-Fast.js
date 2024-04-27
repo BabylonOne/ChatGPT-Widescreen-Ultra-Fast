@@ -9,8 +9,8 @@
 // @namespace    https://github.com/BabylonOne
 // @homepage     https://github.com/BabylonOne/ChatGPT-Widescreen-Ultra-Fast
 // @homepageURL  https://github.com/BabylonOne/ChatGPT-Widescreen-Ultra-Fast
-// @downloadURL  https://github.com/BabylonOne/ChatGPT-Widescreen-Ultra-Fast/ChatGPT-Widescreen-Ultra-Fast.js
-// @updateURL    https://github.com/BabylonOne/ChatGPT-Widescreen-Ultra-Fast/ChatGPT-Widescreen-Ultra-Fast.js
+// @downloadURL  https://raw.githubusercontent.com/BabylonOne/ChatGPT-Widescreen-Ultra-Fast/main/ChatGPT-Widescreen-Ultra-Fast.js
+// @updateURL    https://raw.githubusercontent.com/BabylonOne/ChatGPT-Widescreen-Ultra-Fast/main/ChatGPT-Widescreen-Ultra-Fast.js
 // @supportURL   https://github.com/BabylonOne/ChatGPT-Widescreen-Ultra-Fast/issues
 // @compatible   chrome
 // @compatible   edge
