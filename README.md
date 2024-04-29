@@ -1,6 +1,8 @@
 # ChatGPT Widescreen Ultra Fast
 The fastest Chat-GPT widescreen userscript.
 
+Just one line, you don't even have to install a script, just paste one line into the browser URL bar.
+
 ## Simplicity is the ultimate sophistication
 ✅ Don't use 10 pages of JavaScript when you can use one line
 
@@ -38,6 +40,6 @@ The ChatGPT interface uses the following TailwindCSS for max width under differe
 
 `"md:max-w-3xl lg:max-w-[40rem] xl:max-w-[48rem]"`
 
-This script inserts into the master style sheet, a overriding max-width CSS rule (with the "!important" flag), to keep the chat boxes at max width before they are even created:
+This script inserts into the master style sheet, an overriding max-width CSS rule (with the "!important" flag), to keep the chat boxes at max width before they are even created:
 
 `.text-token-text-primary > div > div {max-width:100% !important;}`
