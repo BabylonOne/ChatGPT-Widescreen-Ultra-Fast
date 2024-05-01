@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         ChatGPT Widescreen Ultra Fast (Simple one line CSS edit, No-Install URL method included)
 // @id           ChatGPT_Widescreen_Ultra_Fast@https://github.com/BabylonOne/ChatGPT-Widescreen-Ultra-Fast
-// @version      2024.4.27.0
+// @version      2024.5.1.0
 // @match        *://chat.openai.com/*
 // @author       Alex Yam
 // @license      MIT; https://spdx.org/licenses/MIT.html
@@ -17,7 +17,7 @@
 // @compatible   firefox
 // @compatible   opera
 // @compatible   safari
-// @grant        none
+// @grant        GM_addStyle
 // ==/UserScript==
 
 /*
@@ -25,7 +25,7 @@
 /     If you don't want to install a script, here is a No-Install URL method,
 /     On your ChatGPT chat page, paste the following URL into your URL bar and press enter:
 /
-/         javascript:document.styleSheets[0].insertRule('.text-token-text-primary>div>div{max-width:100% !important}',0);
+/         javascript:document.styleSheets[0].insertRule('.text-token-text-primary>div>div{max-width:100%!important}',0);
 /
 /    Chat boxes should instantly become max width upon pressing enter (if "javascript:" is not removed from the URL)
 /
@@ -56,4 +56,4 @@
 / or ask ChatGPT 3.5 how to do it, it's not hard.
 */
 
-(()=>{document.styleSheets[0].insertRule('.text-token-text-primary>div>div{max-width:100% !important}',0);})();
+GM_addStyle(".text-token-text-primary>div>div{max-width:100%!important}");
