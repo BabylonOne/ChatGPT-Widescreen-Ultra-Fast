@@ -1,7 +1,13 @@
 # ChatGPT Widescreen Ultra Fast
 The fastest Chat-GPT widescreen userscript.
 
-Just one line, you don't even have to install a script, just paste one line into the browser URL bar.
+Just one line, you don't even have to install a script.
+
+Create a bookmark named "Expand ChatGPT" with the following line as the URL:
+
+`javascript:document.styleSheets[0].insertRule('.text-token-text-primary>div>div{max-width:100% !important}',0);`
+
+Click the bookmark and ChatGPT chat boxes should expand instantly.
 
 ## Simplicity is the ultimate sophistication
 ✅ Don't use 10 pages of JavaScript when you can use one line
@@ -24,16 +30,22 @@ Just one line, you don't even have to install a script, just paste one line into
 
 ✅ No any other CPU burning and scroll jittering callback nonsense
 
-## Even faster, a No-Install URL method
-If you don't even have time to install a script, use this instant URL copy and paste method.
+## Even faster, a No-Install One-Click Bookmark Activation method
+If you don't have time to install a script, use this URL Bookmark method instead.
 
-Copy and paste the following into your ChatGPT URL bar and press enter:
+Create a bookmark with the following URL:
 
 `javascript:document.styleSheets[0].insertRule('.text-token-text-primary>div>div{max-width:100% !important}',0);`
 
-Chat boxes should instantly expand to maximum width upon pressing enter (if "javascript:" is not removed from the URL)
+Click the bookmark and ChatGPT chat boxes should expand instantly.
 
-Note: Some browsers removes the "javascript:" from the URL for security reason, you may need to manually input "javascript:" at the start of the URL before pressing Enter.
+## URL Copy and Paste Activation method
+
+You can also copy and paste the same URL directly into the URL bar and press enter:
+
+`javascript:document.styleSheets[0].insertRule('.text-token-text-primary>div>div{max-width:100% !important}',0);`
+
+Note: Some browsers remove the "javascript:" from the URL for security reasons, you may need to manually input "javascript:" at the start of the URL before pressing Enter. ChatGPT chat boxes should expand instantly upon pressing Enter.
 
 ## How it works
 The ChatGPT interface uses the following TailwindCSS for max width under different screen sizes:
