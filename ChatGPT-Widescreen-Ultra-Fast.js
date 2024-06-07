@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         ChatGPT Widescreen Ultra Fast
 // @id           ChatGPT_Widescreen_Ultra_Fast@https://github.com/BabylonOne/ChatGPT-Widescreen-Ultra-Fast
-// @version      2024.5.3.0
-// @match        *://chat.openai.com/*
+// @version      2024.6.7.0
+// @match        *://chatgpt.com/*
 // @author       Alex Yam
 // @license      MIT; https://spdx.org/licenses/MIT.html
 // @description  The fastest ChatGPT widescreen userscript. Just one line, you don't even have to install a script. Create a bookmark and activate with one click.
