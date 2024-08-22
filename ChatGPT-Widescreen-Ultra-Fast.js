@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         ChatGPT Widescreen Ultra Fast
 // @id           ChatGPT_Widescreen_Ultra_Fast@https://github.com/BabylonOne/ChatGPT-Widescreen-Ultra-Fast
-// @version      2024.7.2.0
+// @version      2024.8.22.0
 // @match        *://chatgpt.com/*
 // @author       Alex Yam
 // @license      MIT; https://spdx.org/licenses/MIT.html
@@ -82,4 +82,9 @@
 / or ask ChatGPT 3.5 how to do it, it's not hard.
 */
 
+// Expand general responses to 100% of the available width.
 GM_addStyle(".text-token-text-primary>div>div{max-width:100%!important}");
+
+// For "Which response do you prefer? [Response 1 | Response 2]"
+// expand both responses to 50% of the available width.
+GM_addStyle(".min-w-fit>div{max-width:100%!important}");
