@@ -5,7 +5,7 @@ Just one line, you don't even have to install a script.
 
 Create a bookmark named "Expand ChatGPT" with the following URL:
 
-`javascript:document.styleSheets[0].insertRule('.text-token-text-primary>div>div{max-width:100%!important}',0);`
+`javascript:document.styleSheets[0].insertRule('.text-token-text-primary>div>div,.min-w-fit>div{max-width:100%!important}',0);`
 
 Click the bookmark and all ChatGPT chat boxes should expand instantly.
 
@@ -46,7 +46,7 @@ Click the bookmark and all ChatGPT chat boxes should expand instantly.
 
 If you don't want to install a script, create a bookmark named "Expand ChatGPT" with the following URL:
 
-`javascript:document.styleSheets[0].insertRule('.text-token-text-primary>div>div{max-width:100%!important}',0);`
+`javascript:document.styleSheets[0].insertRule('.text-token-text-primary>div>div,.min-w-fit>div{max-width:100%!important}',0);`
 
 Click the bookmark and all ChatGPT chat boxes should expand instantly.
 
@@ -54,7 +54,7 @@ Click the bookmark and all ChatGPT chat boxes should expand instantly.
 
 You can also copy and paste the same URL directly into the URL bar and press enter:
 
-`javascript:document.styleSheets[0].insertRule('.text-token-text-primary>div>div{max-width:100%!important}',0);`
+`javascript:document.styleSheets[0].insertRule('.text-token-text-primary>div>div,.min-w-fit>div{max-width:100%!important}',0);`
 
 Note: Some browsers remove the "javascript:" from the URL for security reasons, you may need to manually enter "javascript:" in front of the URL before pressing Enter. Upon pressing Enter, all ChatGPT chat boxes should expand instantly.
 
@@ -64,9 +64,13 @@ ChatGPT uses the following TailwindCSS to limit box widths under different scree
 
 `"md:max-w-3xl lg:max-w-[40rem] xl:max-w-[48rem]"`
 
+`"mx-auto max-w-6xl flex gap-2 sm:gap-3"`
+
 This script inserts the following CSS rule into the master style sheet:
 
 `.text-token-text-primary > div > div {max-width:100% !important;}`
+
+`.min-w-fit > div {max-width:100% !important;}`
 
 It overrides TailwindCSS and keeps chat boxes at 100% max-width on all screen sizes, before they are even created.
 
